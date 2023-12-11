@@ -8,7 +8,8 @@
     "coverage": "npx hardhat coverage",
     "clean": "npx hardhat clean",
     "local-bc": "npx hardhat node",
-    "miner": "npx hardhat run scripts/miner.ts"
+    "miner": "npx hardhat run scripts/miner.ts",
+    "read-write": "npx hardhat run scripts/readWriteSmartContract.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
